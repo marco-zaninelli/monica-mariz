@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" version="1.1" viewBox="0 0 30 30" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+    
+        <g transform="matrix(.56589 0 0 .56589 6.5116 6.5116)">
+            <path d="m15 0c8.279 0 15 6.721 15 15s-6.721 15-15 15-15-6.721-15-15 6.721-15 15-15zm0 3.534c-6.328 0-11.466 5.138-11.466 11.466s5.138 11.466 11.466 11.466 11.466-5.138 11.466-11.466-5.138-11.466-11.466-11.466z"/>
+        </g>
+        <g transform="translate(-1.7764e-15 .46512)">
+            <path d="m15 3.933v-3.217" fill="none" stroke="#000" stroke-width="2px"/>
+        </g>
+        <g transform="matrix(6.1232e-17 1 -1 6.1232e-17 29.535 -3.5242e-15)">
+            <path d="m15 3.933v-3.217" fill="none" stroke="#000" stroke-width="2px"/>
+        </g>
+        <g transform="matrix(-1 1.2246e-16 -1.2246e-16 -1 30 29.535)">
+            <path d="m15 3.933v-3.217" fill="none" stroke="#000" stroke-width="2px"/>
+        </g>
+        <g transform="matrix(-1.837e-16 -1 1 -1.837e-16 .46512 30)">
+            <path d="m15 3.933v-3.217" fill="none" stroke="#000" stroke-width="2px"/>
+        </g>
+        <g transform="matrix(.70711 .70711 -.70711 .70711 14.671 -5.8843)">
+            <path d="m15 3.933v-3.217" fill="none" stroke="#000" stroke-width="2px"/>
+        </g>
+        <g transform="matrix(-.70711 .70711 -.70711 -.70711 35.884 14.671)">
+            <path d="m15 3.933v-3.217" fill="none" stroke="#000" stroke-width="2px"/>
+        </g>
+        <g transform="matrix(-.70711 -.70711 .70711 -.70711 15.329 35.884)">
+            <path d="m15 3.933v-3.217" fill="none" stroke="#000" stroke-width="2px"/>
+        </g>
+        <g transform="matrix(.70711 -.70711 .70711 .70711 -5.8843 15.329)">
+            <path d="m15 3.933v-3.217" fill="none" stroke="#000" stroke-width="2px"/>
+        </g>
+    
+</svg>

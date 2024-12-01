@@ -2,20 +2,153 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+    font-family: 'HeadingPro';
+    src: url('../public/fonts/Heading-Pro-Book.ttf') format('truetype'); /* Regular weight */
+    font-weight: normal;
+    font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Bold Font */
+@font-face {
+    font-family: 'HeadingPro';
+    src: url('../public/fonts/Heading-Pro-Bold.ttf') format('truetype'); /* Bold weight */
+    font-weight: bold;
+    font-style: normal;
+}
+
+:root {
+    --color-primary: #eaded2; /* Background  60% */
+    --color-secndary: #a45848; /* Text 30% */
+    --color-accent: #132235; /* Accent 10% */
+    --font-heading: HeadingPro, sans-serif;
+    --font-text: Montserrat, sans-serif;
+}
+
+* {
+    font-family: var(--font-text);
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
+    background-color: var(--color-primary);;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+    font-family: var(--font-heading);
+}
+
+h4, h5, h6 {
+    font-family: var(--font-text);
+}
+
+@media (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 639px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+    margin: 0 1.25rem;
+    line-height: 1;
+    font-size: 6rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: var(--color-secndary);
+}
+
+
+@media (max-width: 1024px) {
+    h1{
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 639px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1;
+    color: var(--color-secndary);
+}
+
+@media (max-width: 1024px) {
+    h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 639px) {
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+h3, h4 {
+    font-size: 20px;
+    margin: 5px 0;
+    font-weight: normal;
+    color: var(--color-secndary);
+}
+
+@media (max-width: 1024px) {
+    h3, h4 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 639px) {
+    h3, h4 {
+        font-size: 16px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-secndary);
+}
+
+a:hover {
+    color: var(--color-secndary);
+}
+
+p {
+    max-width: 620px;
+    line-height: 1.4;
+    margin: 10px 0;
+    color: var(--color-secndary);
+}
+
+@media (max-width: 1024px) {
+    p {
+        max-width: 540px;
+    }
+}
+
+@media (max-width: 639px) {
+    p {
+        max-width: 480px;
+    }
 }
