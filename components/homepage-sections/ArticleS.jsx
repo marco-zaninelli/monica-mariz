@@ -14,9 +14,8 @@ export default function ArticleS () {
                        riflettendo il mio stile unico e il mio approccio creativo.</p>
                 </div>
                 <div className={"flex flex-row gap-x-4 sm:gap-x-6"}>
-                    {/* TODO: Insert correct alt text */}
-                    <OpenPdf imgSrc={CasaIng} imgAlt={''} url={"/pdf/17 CASA.pdf"} />
-                    <OpenPdf imgSrc={WeImg} imgAlt={''} url={"/pdf/2211_WE_TRENTO.pdf"} />
+                    <OpenPdf imgSrc={CasaIng} imgAlt={'Articolo della rivista CASA su un arredamento di Monica Mariz a Lavis di Trento'} url={"/pdf/17 CASA.pdf"} />
+                    <OpenPdf imgSrc={WeImg} imgAlt={'Articolo della rivista WE su un arredamento di Monica Mariz a Lavis di Trento in lingua cinese'} url={"/pdf/2211_WE_TRENTO.pdf"} />
                 </div>
             </div>
         </MyHomeSection>

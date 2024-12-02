@@ -36,3 +36,45 @@ export const GET_LATEST_PROJECTS = `
         alt
     }
  }`;
+
+export const GET_PROJECTS_DATA = `
+*[_type == "post"] | order(_createdAt desc){
+    title,
+    slug,
+    categories[]->{
+        title
+    },
+    thumbnail{
+        asset->{
+            url,
+            originalFilename
+        }
+    }
+}`;
+
+export const GET_PROJECT_PAGE_DATA_BY_SLUG = `
+*[slug.current == $slug]{
+    title,
+    _id,
+    slug,
+    categories[]->{
+        _id,
+        title
+    },
+    description,
+    location,
+    headerImage {
+        asset->{
+            _id,
+            url
+        }
+    },
+    textContent,
+    imageContent[]{
+        asset->{
+            _id,
+            url,
+            originalFilename
+        }
+    }
+}`

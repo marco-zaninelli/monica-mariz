@@ -1,10 +1,18 @@
+import PageHeading from "@/components/PageHeading";
+import Head from "next/head";
+
 export default function Quadri () {
     return (
         <>
-            <head>
+            <Head>
                 <title>Monica Mariz | Quadri</title>
-            </head>
-            <h1>Quadri</h1>
+            </Head>
+            <main>
+                <PageHeading
+                    heading={"QUADRI"}
+                    description={"Ogni pezzo racconta una storia unica, riflettendo creatività ed espressione personale."}
+                />
+            </main>
         </>
     );
 }

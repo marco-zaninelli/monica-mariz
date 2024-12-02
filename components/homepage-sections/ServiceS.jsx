@@ -40,7 +40,7 @@ const services = [
 
 export default function ServiceS () {
     return (
-        <TitleAndButtonLayout title={"ULTIMI PROGETTI"}>
+        <TitleAndButtonLayout title={"COSA FACCIO"}>
             <FourCardsDisplay>
                 {services.map((service, index) => (
                     <ServiceElement

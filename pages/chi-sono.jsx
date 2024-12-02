@@ -1,10 +1,18 @@
+import PageHeading from "@/components/PageHeading";
+import Head from "next/head";
+
 export default function ChiSono () {
     return (
         <>
-            <head>
+            <Head>
                 <title>Monica Mariz | Chi Sono</title>
-            </head>
-                <h1>Chi Sono</h1>
+            </Head>
+            <main>
+                <PageHeading
+                    heading={"CHI SONO"}
+                    description={"Dall'arte alla progettazione d'interni, un viaggio creativo fatto di eleganza, dettagli e passione"}
+                />
+            </main>
         </>
     );
 }

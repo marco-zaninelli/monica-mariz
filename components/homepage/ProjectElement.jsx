@@ -5,22 +5,19 @@ import { useState } from "react";
 export default function ProjectElement({ imgSrc, imgAlt, heading, link, onClick, className }) {
     const [hover, setHover] = useState(false);
 
-    const imageStyle = {
-        transform: hover ? 'scale(1.2)' : 'scale(1)',
-        transition: 'transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out'
-    };
-
     const content = (
         <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
             <div className={'group block w-full max-w-full overflow-hidden rounded-xl '}>
                 <Image
                     src={imgSrc}
                     alt={imgAlt}
-                    className="w-full h-full object-cover rounded-xl"
+                    className="w-full h-full object-cover rounded-xl transition-all duration-300 ease-in-out"
                     layout="responsive"
                     width={400}
                     height={600}
-                    style={imageStyle}
+                    style={{
+                        transform: hover ? "scale(1.1)" : "scale(1)"
+                }}
                 />
             </div>
             <h4 className={'mx-auto text-center'}>{heading}</h4>

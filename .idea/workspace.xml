@@ -4,10 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5199aa4-1597-4d55-aeb2-bc360b0be92c" name="Changes" comment="Transfer project from Space to GitHub">
+    <list default="true" id="b5199aa4-1597-4d55-aeb2-bc360b0be92c" name="Changes" comment="Updated LICENSE.md and README.md files">
+      <change afterPath="$PROJECT_DIR$/components/grid/GridStructure.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/grid/LinkGrid.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/masonry-grid/MasonryGrid.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/masonry-grid/MasonrySortingHelper.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/progetti/[slug].jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage-sections/ArticleS.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage-sections/ArticleS.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage-sections/ServiceS.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage-sections/ServiceS.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage/ProjectElement.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/ProjectElement.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/queries.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/queries.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/chi-sono.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chi-sono.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contatti.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contatti.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/progetti/[id].jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/PageHeading.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/progetti/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/progetti/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quadri.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quadri.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,18 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "marco-zaninelli"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;marco-zaninelli&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/marco-zaninelli/monica-mariz.git",
-    "accountId": "3a87e6ee-03e0-4ed7-8880-d7e3c6d6aac4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/marco-zaninelli/monica-mariz.git&quot;,
+    &quot;accountId&quot;: &quot;3a87e6ee-03e0-4ed7-8880-d7e3c6d6aac4&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -44,22 +58,22 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Reverting in master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.dev.executor": "Run",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
-    "ts.external.directory.path": "C:\\Users\\GAMiNG-LAPTOP\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\GAMiNG-LAPTOP\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -111,7 +125,8 @@
       <workItem from="1732077349913" duration="8535000" />
       <workItem from="1732518852575" duration="20230000" />
       <workItem from="1732843753618" duration="25490000" />
-      <workItem from="1733092216330" duration="2344000" />
+      <workItem from="1733092216330" duration="14531000" />
+      <workItem from="1733128603567" duration="2606000" />
     </task>
     <task id="LOCAL-00001" summary="Transfer project from Space to GitHub">
       <option name="closed" value="true" />
@@ -121,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733093158368</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated LICENSE.md and README.md files">
+      <option name="closed" value="true" />
+      <created>1733094648131</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733094648131</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +152,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Transfer project from Space to GitHub" />
-    <option name="LAST_COMMIT_MESSAGE" value="Transfer project from Space to GitHub" />
+    <MESSAGE value="Updated LICENSE.md and README.md files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated LICENSE.md and README.md files" />
   </component>
 </project>
