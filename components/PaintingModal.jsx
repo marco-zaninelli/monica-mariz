@@ -41,7 +41,7 @@ const PaintingModal = ({painting, onClose}) => {
 
     const handleClose = () => {
         setIsVisible(false);
-        setTimeout(onClose, 700); // no need to call onClose() here
+        setTimeout(onClose, 700);
     };
 
     if (!painting) {
@@ -52,12 +52,12 @@ const PaintingModal = ({painting, onClose}) => {
 
     return (
         <div
-            className={`fixed top-0 left-0 right-0 bottom-0 p-2 flex items-center justify-center z-50 bg-black bg-opacity-20 backdrop-blur-sm transition-all duration-700 ${isVisible ? "opacity-100" : "opacity-0"}`}
+            className={`fixed top-0 left-0 right-0 bottom-0 p-2 flex items-center justify-center z-50 bg-black bg-opacity-20 backdrop-blur-sm transition-all duration-300 ${isVisible ? "opacity-100" : "opacity-0"}`}
             onClick={handleClose}>
             <div
                 className="relative flex flex-col sm:flex-row bg-primary rounded-xl max-w-[350px] sm:max-w-none"
                 onClick={e => e.stopPropagation()}
-            style={{maxHeight: "calc(100vh - 16px)", overflowY: "auto"}}>
+                style={{maxHeight: "calc(100vh - 16px)", overflowY: "auto"}}>
                 {paintingDetails ? (
                     <>
                         <div className={"relative"}>

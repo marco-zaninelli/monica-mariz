@@ -4,24 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5199aa4-1597-4d55-aeb2-bc360b0be92c" name="Changes" comment="Updated LICENSE.md and README.md files">
-      <change afterPath="$PROJECT_DIR$/components/grid/GridStructure.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/grid/LinkGrid.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/masonry-grid/MasonryGrid.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/masonry-grid/MasonrySortingHelper.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/progetti/[slug].jsx" afterDir="false" />
+    <list default="true" id="b5199aa4-1597-4d55-aeb2-bc360b0be92c" name="Changes" comment="Added Projects page and procedural links.">
+      <change afterPath="$PROJECT_DIR$/components/grid/ModalGrid.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/homepage-sections/ArticleS.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage-sections/ArticleS.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/homepage-sections/ServiceS.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage-sections/ServiceS.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/homepage/ProjectElement.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/ProjectElement.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/grid/GridStructure.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/grid/GridStructure.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage-sections/PaintingS.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage-sections/PaintingS.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage/PaintingModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/PaintingModal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/NavBar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/queries.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/queries.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/chi-sono.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chi-sono.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contatti.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contatti.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/progetti/[id].jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/PageHeading.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/progetti/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/progetti/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/chi-sono.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/quadri.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quadri.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +79,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\GAMiNG-LAPTOP\WebstormProjects\monica-mariz\components" />
       <recent name="C:\Users\GAMiNG-LAPTOP\WebstormProjects\monica-mariz\components\homepage" />
       <recent name="C:\Users\GAMiNG-LAPTOP\WebstormProjects\monica-mariz\components\navigation" />
       <recent name="C:\Users\GAMiNG-LAPTOP\WebstormProjects\monica-mariz\components\layouts" />
@@ -126,7 +121,7 @@
       <workItem from="1732518852575" duration="20230000" />
       <workItem from="1732843753618" duration="25490000" />
       <workItem from="1733092216330" duration="14531000" />
-      <workItem from="1733128603567" duration="2606000" />
+      <workItem from="1733128603567" duration="11768000" />
     </task>
     <task id="LOCAL-00001" summary="Transfer project from Space to GitHub">
       <option name="closed" value="true" />
@@ -144,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733094648131</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Projects page and procedural links.">
+      <option name="closed" value="true" />
+      <created>1733131477172</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733131477172</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +156,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Transfer project from Space to GitHub" />
     <MESSAGE value="Updated LICENSE.md and README.md files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated LICENSE.md and README.md files" />
+    <MESSAGE value="Added Projects page and procedural links." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Projects page and procedural links." />
   </component>
 </project>

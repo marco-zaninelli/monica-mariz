@@ -37,6 +37,18 @@ export const GET_LATEST_PROJECTS = `
     }
  }`;
 
+export const GET_PAINTINGS_DATA = `
+*[_type == "art"]{
+    title,
+    slug,
+    thumbnail{
+        asset->{
+            url,
+            originalFilename
+        }
+    }
+}`
+
 export const GET_PROJECTS_DATA = `
 *[_type == "post"] | order(_createdAt desc){
     title,

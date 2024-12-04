@@ -12,7 +12,7 @@ const Logo = () => (
 const navLinks = [
     {to: "/", text: "Home"},
     {to: "/progetti", text: "Progetti"},
-    {to: "/chi-sono", text: "Chi sono"},
+    // {to: "/chi-sono", text: "Chi sono"},
     {to: "/quadri", text: "Quadri"},
     {to: "/contatti", text: "Contatti"}
 ];
@@ -69,7 +69,7 @@ export default function NavBar () {
                     {/*<Logo />*/}
                 </Link>
 
-                <MenuIcon className={"md:hidden p-1 w-9 h-9 text-gray-600 cursor-pointer"} onClick={toggleModal} />
+                <MenuIcon className={"md:hidden p-1 w-9 h-9 text-secondary cursor-pointer"} onClick={toggleModal} />
                 <NavModal isOpen={showModal} toggleModal={toggleModal} navLinks={navLinks} pathName={router.pathname} />
 
                 <nav className="hidden md:flex justify-end p-0 capitalize text-base">

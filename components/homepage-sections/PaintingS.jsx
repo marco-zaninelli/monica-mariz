@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import sanityClient from "@/lib/sanityClient";
 import {GET_LATEST_PAINTINGS} from "@/lib/queries";
 import TitleAndButtonLayout from "@/components/layouts/TitleAndButtonLayout";
-import PaintingModal from "@/components/homepage/PaintingModal";
+import PaintingModal from "@/components/PaintingModal";
 import FourCardsDisplay from "@/components/homepage/FourCardsDisplay";
 import ProjectElement from "@/components/homepage/ProjectElement";
 

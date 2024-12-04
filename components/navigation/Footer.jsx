@@ -1,5 +1,3 @@
-import Link from "next/link";
-import MyButton from "@/components/MyButton";
 import SOCIAL_LINKS from "@/components/navigation/SOCIAL_LINKS";
 import FooterLink from "@/components/navigation/FooterLink";
 
@@ -28,7 +26,7 @@ const FooterComponent = () => {
                         <h4 className={"text-primary font-bold"}>Pagine</h4>
                         <FooterLink link={"/"}>Homepage</FooterLink>
                         <FooterLink link={"/progetti"}>Progetti</FooterLink>
-                        <FooterLink link={"/chi-sono"}>Chi Sono</FooterLink>
+                        {/*<FooterLink link={"/chi-sono"}>Chi Sono</FooterLink>*/}
                         <FooterLink link={"/quadri"}>Quadri</FooterLink>
                     </div>
 
