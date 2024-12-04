@@ -1,5 +1,6 @@
 import SOCIAL_LINKS from "@/components/navigation/SOCIAL_LINKS";
 import FooterLink from "@/components/navigation/FooterLink";
+import MyButton from "@/components/MyButton";
 
 const FooterComponent = () => {
     return (
@@ -15,8 +16,8 @@ const FooterComponent = () => {
                     <p className={"text-primary md:max-w-96 mt-4 mb-2"}>
                         Ogni Visione Merita di Prendere Forma: Collaboriamo per Trasformare le Tue Idee in Realtà Durature.
                     </p>
-                    <div>
-                        <FooterLink external={true} link={"mailto:info@monicamariz.it"}>info@monicamariz.it</FooterLink>
+                    <div className={"mt-4"} id={"contatti"}>
+                        <MyButton external={true} link={"mailto:info@monicamariz.it"} reverse={true}>info@monicamariz.it</MyButton>
                     </div>
                 </div>
 
@@ -49,7 +50,7 @@ const FooterComponent = () => {
             </div>
 
             {/* Copyright */}
-            <div className={'w-full flex flex-row items-center justify-between max-w-screen-xl'}>
+            <div className={"w-full flex flex-row items-center justify-between max-w-screen-xl"}>
                 <p className="text-primary text-xs md:text-sm mt-6 mb-0">©2024 Monica Mariz - All rights reserved</p>
                 <p className="text-primary text-xs md:text-sm mt-6 mb-0 text-right">created by <a
                     className={"text-inherit hover:text-inherit"}

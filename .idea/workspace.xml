@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5199aa4-1597-4d55-aeb2-bc360b0be92c" name="Changes" comment="Made quadri page">
-      <change afterPath="$PROJECT_DIR$/components/grid/ModalGrid.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/grid/GridStructure.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/grid/GridStructure.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/homepage-sections/PaintingS.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage-sections/PaintingS.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/homepage/PaintingModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/PaintingModal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MyButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MyButton.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/navigation/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/navigation/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/queries.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/queries.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/chi-sono.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contatti.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contatti.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/quadri.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quadri.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +118,7 @@
       <workItem from="1732518852575" duration="20230000" />
       <workItem from="1732843753618" duration="25490000" />
       <workItem from="1733092216330" duration="14531000" />
-      <workItem from="1733128603567" duration="12414000" />
+      <workItem from="1733128603567" duration="14557000" />
     </task>
     <task id="LOCAL-00001" summary="Transfer project from Space to GitHub">
       <option name="closed" value="true" />
@@ -147,7 +144,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733131477172</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Made quadri page">
+      <option name="closed" value="true" />
+      <created>1733273599972</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733273599972</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Made quadri page">
+      <option name="closed" value="true" />
+      <created>1733273623212</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733273623212</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -14,7 +14,7 @@ const navLinks = [
     {to: "/progetti", text: "Progetti"},
     // {to: "/chi-sono", text: "Chi sono"},
     {to: "/quadri", text: "Quadri"},
-    {to: "/contatti", text: "Contatti"}
+    {to: "#contatti", text: "Contatti"}
 ];
 
 // Sets scrollbar height and toggle scroll height

@@ -1,5 +1,5 @@
 import PageHeading from "@/components/PageHeading";
-import {useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import sanityClient from "@/lib/sanityClient";
 import LinkGrid from "@/components/grid/LinkGrid";
 import {GET_PROJECTS_DATA} from "@/lib/queries";
@@ -60,6 +60,20 @@ export default function Progetti () {
         <>
             <Head>
                 <title>Monica Mariz | Progetti</title>
+                <meta
+                    name="description"
+                    content="Scopri i miei progetti di interior design: arredamento, allestimento e restyling per spazi unici e personalizzati. Creatività e funzionalità al centro."
+                />
+                <link rel="canonical" href="https://www.monicamariz.it/progetti" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta property="og:title" content="Monica Mariz | Quadri" />
+                <meta
+                    property="og:description"
+                    content="Scopri i miei progetti di interior design: arredamento, allestimento e restyling per spazi unici e personalizzati. Creatività e funzionalità al centro."
+                />
+                {/* TODO:: Add image URL for social sharing */}
+                {/*<meta property="og:image" content="URL to image for social sharing" />*/}
+                <meta property="og:url" content="https://www.monicamariz.it/progetti" />
             </Head>
             <main>
                 <PageHeading
