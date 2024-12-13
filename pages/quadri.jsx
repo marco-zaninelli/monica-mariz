@@ -1,36 +1,18 @@
 import PageHeading from "@/components/PageHeading";
-import Head from "next/head";
-import sanityClient from "@/lib/sanityClient";
-import React, { useEffect, useState } from "react";
+import {getThumbnailsData} from "@/lib/getThumbnailsData";
 import ModalGrid from "@/components/grid/ModalGrid";
-import { GET_PAINTINGS_DATA } from "@/lib/queries";
+import Head from "next/head";
 
-export default function Quadri() {
-    const [paintingsData, setPaintingsData] = useState([]);
-    const [isLoading, setIsLoading] = useState(true);
-    const [error, setError] = useState(null);
 
-    useEffect(() => {
-        sanityClient
-            .fetch(GET_PAINTINGS_DATA)
-            .then((data) => {
-                const transformedData = {
-                    images: data.map((painting) => ({
-                        src: painting.thumbnail?.asset?.url || "",
-                        alt: painting.thumbnail?.asset?.originalFilename?.split(".")[0] || "Untitled",
-                        title: painting.title || "No Title",
-                        slug: painting.slug || "",
-                    })),
-                };
-                setPaintingsData(transformedData);
-                setIsLoading(false);
-            })
-            .catch((err) => {
-                console.error("Error fetching paintings data:", err);
-                setError("Unable to load paintings data. Please try again later.");
-                setIsLoading(false);
-            });
-    }, []);
+export async function getStaticProps () {
+    const paintingsData = getThumbnailsData("art");
+    return {props: {paintingsData}};
+}
+
+export default function Quadri ({paintingsData}) {
+    if (!paintingsData) {
+        return <p>Error: Data is not available.</p>;
+    }
 
     return (
         <>
@@ -56,11 +38,7 @@ export default function Quadri() {
                     heading="QUADRI"
                     description="Ogni pezzo racconta una storia unica, riflettendo creatività ed espressione personale."
                 />
-                {error ? (
-                    <div className="error-message">{error}</div>
-                ) : (
-                    <ModalGrid data={paintingsData} isLoading={isLoading} />
-                )}
+                <ModalGrid data={paintingsData} />
             </main>
         </>
     );

@@ -4,14 +4,378 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5199aa4-1597-4d55-aeb2-bc360b0be92c" name="Changes" comment="Made quadri page">
+    <list default="true" id="047870b4-b285-49db-a535-82503ffca00b" name="Changes" comment="First version of the project to be built">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_12_2024_14_54_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_12_2024_14_54__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/fetchFour.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/getPostBySlug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/getSlug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/getThumbnailsData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/art/01-art-one.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/art/02-art-two.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/art/03-art-three.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/art/04-art-four.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/projects/01-casa-privata-lavis.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/projects/02-ristorante-maison-de-filip.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/projects/03-casa-privata-gabicce-mare.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/projects/04-casa-privata-cortina-d-ampezzo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/projects/05-pasticceria-bronzetti.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/projects/06-casa-ester-b-and-b.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/projects/07-casa-ester-appartamenti.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/projects/08-casa-privata-trento.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/projects/09-bistrot-trento-alta.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/projects/10-numero-28-luxury-apartments.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/projects/11-store-punto-e-virgola.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/projects/12-casa-privata-san-benedetto-del-tronto.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/projects/13-residenza-le-albere-riva.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/projects/14-residenza-le-albere-buxter.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/projects/15-residenza-le-albere-cantori.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/projects/16-casa-privata-albiano.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/projects/17-store-la-kulla.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/paintings/Monica Quadro 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/paintings/Monica quadro 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/paintings/Monica quadro 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/paintings/Monica quadro 4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/bistrot-trento-alta/Header Monica Mariz bistrot trento alta tavolo antico con sgabelli.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/bistrot-trento-alta/Monica Mariz bistrot trento alta entrata e scalinata per primo piano.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/bistrot-trento-alta/Monica Mariz bistrot trento alta finestrone con vista.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/bistrot-trento-alta/Monica Mariz bistrot trento alta insegna sr e porta bottiglie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/bistrot-trento-alta/Monica Mariz bistrot trento alta insegna tabacchino.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/bistrot-trento-alta/Monica Mariz bistrot trento alta mobile colore verde acqua con insegna tabacchino.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/bistrot-trento-alta/Monica Mariz bistrot trento alta paretre griglia con piante e panca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/bistrot-trento-alta/Monica Mariz bistrot trento alta pianta su davanzale.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/bistrot-trento-alta/Monica Mariz bistrot trento alta porta 10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/bistrot-trento-alta/Monica Mariz bistrot trento alta porta bagno sgabello.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/bistrot-trento-alta/Monica Mariz bistrot trento alta primo piano con insegne e lapadari.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/bistrot-trento-alta/Monica Mariz bistrot trento alta primo piano tabacchino e tavoli industriali.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/bistrot-trento-alta/Monica Mariz bistrot trento alta scritta ta su terrazzo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/bistrot-trento-alta/Monica Mariz bistrot trento alta stile industriale tavoli e sedie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/bistrot-trento-alta/Monica Mariz bistrot trento alta tavolino e porta bagno.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/bistrot-trento-alta/Monica Mariz bistrot trento alta tavolo antico con sgabelli.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/bistrot-trento-alta/Monica Mariz bistrot trento alta tavolo e lampadari stile industriale.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/bistrot-trento-alta/Monica Mariz bistrot trento alta terrazzo con bidoni olio arrugginiti.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/bistrot-trento-alta/Monica Mariz bistrot trento alta terrazzo con vista.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/bistrot-trento-alta/Monica Mariz bistrot trento alta vetrata con vista trento.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/bistrot-trento-alta/Thumbnail Monica Mariz Bistrot Trento Alta thumbnail.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-appartamenti/Header Monica Mariz casa ester appartamenti dettagli sauna.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-appartamenti/Monica Mariz Casa Ester stanza con tavolo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-appartamenti/Monica Mariz casa ester appartamenti  tavolo artigianale in legno.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-appartamenti/Monica Mariz casa ester appartamenti angolo cucina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-appartamenti/Monica Mariz casa ester appartamenti cucina e tavolo artigianale gambe in ferro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-appartamenti/Monica Mariz casa ester appartamenti dettagli sauna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-appartamenti/Monica Mariz casa ester appartamenti divani marroni.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-appartamenti/Monica Mariz casa ester appartamenti pouff con cuscini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-appartamenti/Monica Mariz casa ester appartamenti sedie cortina rosse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-appartamenti/Monica Mariz casa ester appartamenti sedie in legno bianche.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-appartamenti/Monica Mariz casa ester appartamenti stampa con felci.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-appartamenti/Monica Mariz casa ester appartamenti stanza da letto in legno.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-appartamenti/Monica Mariz casa ester appartamenti tavolo in legno sbiancato.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-appartamenti/Monica Mariz casa ester appartamenti top mobile bagno.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-appartamenti/Thumbnail Monica Mariz casa ester.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB armadio verde e quadri con lettere.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB bagno stile industriale.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB camera con divano e tavolino.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB camera da esterno con tenda rossa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB camera da letto bianca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB camera da letto con carta da parati.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB camera rustica stile montano.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB caminetto e legna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB carta parati con fiori.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB carta parati e comodino in legno.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB entrata.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB letto a baldacchino e divano in stoffa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB letto a baldacchino.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB letto con quadri su muro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB mobile bagno in legno e ferro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB sala colazione brakfast.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB sala da pranzo tavoli e sedie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB sedia e orologio su muro bianco.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB stanza colazione breackfast.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB stanza con bajour vista su giardino.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB stanza con quadro cervo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB tavoli con decorazioni.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Monica Mariz casa ester BB tavolo e lampadario.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-ester-b-and-b/Thumbnail Monica Mariz Casa eseter BB.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-albiano/Header Monica Mariz casa privata albiano soggiorno open spcae living con divano in pelle.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-albiano/Monica Mariz casa privata albiano appendino e lavagna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-albiano/Monica Mariz casa privata albiano bancone cucina anticato con sedie e laviagna sullo sfondo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-albiano/Monica Mariz casa privata albiano dettaglio isola cucina con bancone e sgabelli in legno.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-albiano/Monica Mariz casa privata albiano dettaglio soggiorno con pianta e divanbo in pelle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-albiano/Monica Mariz casa privata albiano dettaglio tenda e sedia tavolo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-albiano/Monica Mariz casa privata albiano fornelli cucina con lettere sullo sfondo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-albiano/Monica Mariz casa privata albiano isola cucina con isola.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-albiano/Monica Mariz casa privata albiano isola cucina rustica.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-albiano/Monica Mariz casa privata albiano parete lavagna e cani in contemplazione.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-albiano/Monica Mariz casa privata albiano piano cucina con piante.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-albiano/Monica Mariz casa privata albiano soggiorno open spcae living con divano in pelle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-albiano/Monica Mariz casa privata albiano vista cucina con bancone antico.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-albiano/Thumbnail Monica Mariz Casa Privata Albiano.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-cortina-d-ampezzo/Header Monica Mariz casa privata cortina cucina.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-cortina-d-ampezzo/Monica Mariz Casa Privata Cortina Dampezzo thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-cortina-d-ampezzo/Monica Mariz casa privata cortina armadi in camera da letto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-cortina-d-ampezzo/Monica Mariz casa privata cortina caminetto visto lateralmente.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-cortina-d-ampezzo/Monica Mariz casa privata cortina camino a legna in metallo nero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-cortina-d-ampezzo/Monica Mariz casa privata cortina corridoio con bancone e morsa da banco.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-cortina-d-ampezzo/Monica Mariz casa privata cortina corridoio con vista sul soggiorno.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-cortina-d-ampezzo/Monica Mariz casa privata cortina cucina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-cortina-d-ampezzo/Monica Mariz casa privata cortina davayale con cervo in metallo arrugginito.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-cortina-d-ampezzo/Monica Mariz casa privata cortina divano ad angolo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-cortina-d-ampezzo/Monica Mariz casa privata cortina mobile televisione in soggiorno.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-cortina-d-ampezzo/Monica Mariz casa privata cortina soggiorno con divano ad angolo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-cortina-d-ampezzo/Monica Mariz casa privata cortina soggiorno con divano e tavolo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-cortina-d-ampezzo/Monica Mariz casa privata cortina soggiorno visto dalla cucina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-cortina-d-ampezzo/Monica Mariz casa privata cortina soggiorno.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-cortina-d-ampezzo/Monica Mariz casa privata cortina tavolo da pranzo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-cortina-d-ampezzo/Monica Mariz casa privata cortina tavolo davanti a cucina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-cortina-d-ampezzo/Monica Mariz casa privata cortina vista frontale caminetto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-cortina-d-ampezzo/Thumbnail Monica Mariz casa privata cortina tavolo da pranzo.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-gabicce-mare/Header Monica Mariz gabicce mare camera da letto in stile marino.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-gabicce-mare/Monica Mariz gabicce mare  settaglio parete realizzata in carta pesta.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-gabicce-mare/Monica Mariz gabicce mare  vista giardino.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-gabicce-mare/Monica Mariz gabicce mare bagno con piastrelle stile industrial.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-gabicce-mare/Monica Mariz gabicce mare camera da letto con con remo vintage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-gabicce-mare/Monica Mariz gabicce mare camera da letto in stile marino.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-gabicce-mare/Monica Mariz gabicce mare camera vista soggiorno.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-gabicce-mare/Monica Mariz gabicce mare cuscino e lanterna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-gabicce-mare/Monica Mariz gabicce mare letto lenzuola lino.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-gabicce-mare/Monica Mariz gabicce mare mobile bagno in ferro industriale.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-gabicce-mare/Monica Mariz gabicce mare open space tenda a righe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-gabicce-mare/Monica Mariz gabicce mare salotto con tappeto in alpaca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-gabicce-mare/Monica Mariz gabicce mare scorcio cucina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-gabicce-mare/Monica Mariz gabicce mare soggiorno lampadario dipinto a mano.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-gabicce-mare/Monica Mariz gabicce mare tavolo cucina con gambe in ferro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-gabicce-mare/Thumbnail Monica Mariz Gabicce Mare.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Header Monica Mariz casa privata Lavis camera con letto in velluto blu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Header Monica Mariz casa privata Lavis camera da letto con lampadario a sospensione.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis bagno con pouff trasformabile in letto gervasoni.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis bagno in resina con lavandino freestanding.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis bancone cucina con colonne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis camera da letto con lampadario a sospensione.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis camera da letto soppalcata.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis colonne cucina in vetro opaco.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis corridoio con specchio dorato vintage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis cucina con isola sospesa in rovere termo cotto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis cucina in vetro con piano in acciaio spazzolato.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis giroscale con grande quadro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis giroscale con lampade a parete in ferro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis grande lapadario in foglia doro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis ingresso abitazione divano isola centrale.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis lampada in vetro di murano vintage per bagno.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis open space cucina e soggiorno con camino centrale bifacciale.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis piano cottura su isola centrale cucina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis scala in ferro che collega la zona soppalco.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis scala in legno e ferro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis soggiorno con divano in velluto e tavolo con sedie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis tavolo di antiquariato in legno.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis zona living con divano in velluto blu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis zona living con grande lampadario.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Monica Mariz casa privata Lavis zona sopplachi collegati da ponte in vetro e ferro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-lavis/Thumbnail Monica Mariz Casa privata Lavis.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-san-benedetto-del-tronto/Header Monica Mariz san benedetto del tronto zona divani open space.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-san-benedetto-del-tronto/Monica Mariz san benedetto del tronto bagno design piastrelle opache.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-san-benedetto-del-tronto/Monica Mariz san benedetto del tronto bagno frontale lavandino freestanding.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-san-benedetto-del-tronto/Monica Mariz san benedetto del tronto bagno mattonelle opache rosa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-san-benedetto-del-tronto/Monica Mariz san benedetto del tronto carta da parati con foglia verde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-san-benedetto-del-tronto/Monica Mariz san benedetto del tronto carta da parati e lampadario.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-san-benedetto-del-tronto/Monica Mariz san benedetto del tronto carta parati con vista scale.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-san-benedetto-del-tronto/Monica Mariz san benedetto del tronto colonna e arredamento.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-san-benedetto-del-tronto/Monica Mariz san benedetto del tronto corridoio con vista sul bagno.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-san-benedetto-del-tronto/Monica Mariz san benedetto del tronto cucina nera.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-san-benedetto-del-tronto/Monica Mariz san benedetto del tronto lampadrio che da sul soggiorno.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-san-benedetto-del-tronto/Monica Mariz san benedetto del tronto open space con divani.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-san-benedetto-del-tronto/Monica Mariz san benedetto del tronto open space muri verdi e divani.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-san-benedetto-del-tronto/Monica Mariz san benedetto del tronto penisola con lampadari.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-san-benedetto-del-tronto/Monica Mariz san benedetto del tronto poggiolo arredato con divani.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-san-benedetto-del-tronto/Monica Mariz san benedetto del tronto poggiolo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-san-benedetto-del-tronto/Monica Mariz san benedetto del tronto scorcio bracciolo divano.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-san-benedetto-del-tronto/Monica Mariz san benedetto del tronto tavolo ad incastro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-san-benedetto-del-tronto/Monica Mariz san benedetto del tronto tavolo e sedie in legno design.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-san-benedetto-del-tronto/Monica Mariz san benedetto del tronto zona divani open space.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-san-benedetto-del-tronto/Thumbnail Monica Mariz Casa privata San Benedetto del Tronto.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-trento/Header Monica Mariz casa privata trento tavolo a penisola e cucina.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-trento/Monica Mariz casa privata trento bagno con lavabo tondo bianco.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-trento/Monica Mariz casa privata trento corridoio con tappeto bianco e nero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-trento/Monica Mariz casa privata trento cucina con tavolo e candele.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-trento/Monica Mariz casa privata trento dettaglio cuscini letto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-trento/Monica Mariz casa privata trento divano in tessuto blu e cuciture rosse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-trento/Monica Mariz casa privata trento quadro con cervo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-trento/Monica Mariz casa privata trento scorcio camera da letto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-trento/Monica Mariz casa privata trento scorcio sedia e piante.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-trento/Monica Mariz casa privata trento sgabello con dietro cucina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-trento/Monica Mariz casa privata trento soggiorno con divano in tessuto blu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-trento/Monica Mariz casa privata trento soggiorno con tavole sedia e divano.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-trento/Monica Mariz casa privata trento tavolo a penisola e cucina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-trento/Monica Mariz casa privata trento tavolo a penisola.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-trento/Monica Mariz casa privata trento terrazzo con cactus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/casa-privata-trento/Thumbnail Monica MAriz Casa privata Trento.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/numero-28-luxury-apartments/Header Monica Mariz numero 28 luxury camera da letto a baldacchino.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/numero-28-luxury-apartments/Monica Mariz Numero 28 Luxury Apartment stanza da letto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/numero-28-luxury-apartments/Monica Mariz numero 28 luxury appendino disegnato a mano su muro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/numero-28-luxury-apartments/Monica Mariz numero 28 luxury attaccapanni appendi abiti.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/numero-28-luxury-apartments/Monica Mariz numero 28 luxury borsa n 28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/numero-28-luxury-apartments/Monica Mariz numero 28 luxury cactus disegnato a mano.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/numero-28-luxury-apartments/Monica Mariz numero 28 luxury camera da letto a baldacchino.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/numero-28-luxury-apartments/Monica Mariz numero 28 luxury camera da letto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/numero-28-luxury-apartments/Monica Mariz numero 28 luxury comodino letto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/numero-28-luxury-apartments/Monica Mariz numero 28 luxury corridoio con letto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/numero-28-luxury-apartments/Monica Mariz numero 28 luxury divano imbottito.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/numero-28-luxury-apartments/Monica Mariz numero 28 luxury open space.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/numero-28-luxury-apartments/Monica Mariz numero 28 luxury pittura su muro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/numero-28-luxury-apartments/Monica Mariz numero 28 luxury scaffali vintage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/numero-28-luxury-apartments/Monica Mariz numero 28 luxury scrocio letto a baldacchino.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/numero-28-luxury-apartments/Monica Mariz numero 28 luxury stanza letto con lenzuola bianche.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/numero-28-luxury-apartments/Monica Mariz numero 28 luxury tavolo accanto a letto e attaccapanni.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/numero-28-luxury-apartments/Monica Mariz numero 28 luxury vavandino bagno e specchio.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/numero-28-luxury-apartments/Monica Mariz numero 28 luxury vista strada da tendaggio.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/numero-28-luxury-apartments/Thumbnail Monica Mariz numero 28.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/22.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Header Monica Mariz pasticceria bronzetti bancone con targhetta artigiano.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Monica Mariz pasticceria bronzetti bancone con targhetta artigiano.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Monica Mariz pasticceria bronzetti colonna dolci e porta bottiglie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Monica Mariz pasticceria bronzetti contenitore latte e foto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Monica Mariz pasticceria bronzetti dehor con sedie e tavoli.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Monica Mariz pasticceria bronzetti dehor con tavolo rivestito in piastrelle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Monica Mariz pasticceria bronzetti dehor vista esterna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Monica Mariz pasticceria bronzetti dettaglio espositore.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Monica Mariz pasticceria bronzetti dettaglio espositori in stile vintage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Monica Mariz pasticceria bronzetti dolce con tazza.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Monica Mariz pasticceria bronzetti espositore pasticcini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Monica Mariz pasticceria bronzetti espositore torte.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Monica Mariz pasticceria bronzetti panca pitturata a mano.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Monica Mariz pasticceria bronzetti posate e tazza su bancone con dolce.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Monica Mariz pasticceria bronzetti ripiani con cioccolatini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Monica Mariz pasticceria bronzetti sala in stile vintage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Monica Mariz pasticceria bronzetti scaffali con cornice vintage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Monica Mariz pasticceria bronzetti scaffali e  cioccolatiera.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Monica Mariz pasticceria bronzetti snack bar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Monica Mariz pasticceria bronzetti specchio e scaffale.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Monica Mariz pasticceria bronzetti tavolino fatto a mano.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Monica Mariz pasticceria bronzetti tavolo con sedia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/pasticceria-bronzetti/Thumbnail Monica Mariz Bronzetti Pasticceria.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-buxter/Header Monica Mariz le albere buxter camera da letto con vasca da bagno.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-buxter/Monica Mariz le albere buxter angolo con poltroncina e divanetto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-buxter/Monica Mariz le albere buxter camera da letto con finestra e balcone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-buxter/Monica Mariz le albere buxter camera da letto con pelliccia e vasca da bagno.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-buxter/Monica Mariz le albere buxter camera da letto con vasca da bagno.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-buxter/Monica Mariz le albere buxter corridoio con specchi e vista soggiorno.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-buxter/Monica Mariz le albere buxter corridoio con tappeto rosso e pelliccia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-buxter/Monica Mariz le albere buxter divano in pelle blu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-buxter/Monica Mariz le albere buxter letto con lenzuola lunghe in tessuto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-buxter/Monica Mariz le albere buxter muri colore verde e divano in pelle blu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-buxter/Monica Mariz le albere buxter muro rosso e sedie di design.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-buxter/Monica Mariz le albere buxter poggiolo in pietra con sedia con pelliccia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-buxter/Monica Mariz le albere buxter primo piano del tavolo in metallo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-buxter/Monica Mariz le albere buxter sedia in pelle con tavolo in metallo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-buxter/Monica Mariz le albere buxter soggiorno con tavolo e sedia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-buxter/Monica Mariz le albere buxter soggiorno tappeto rosso e specchi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-buxter/Monica Mariz le albere buxter stanza con busti scopiti.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-buxter/Monica Mariz le albere buxter stanza con specchio vintage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-buxter/Monica Mariz le albere buxter tavolini in soggiorno con muro verde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-buxter/Monica Mariz le albere buxter tavolo apparecchiato.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-buxter/Thumbnail Monica Mariz le albere buxter corridoio con specchi e vista soggiorno.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-cantori/Header Monica Mariz le albere cantori camera bambino con culla.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-cantori/Monica Mariz le albere cantori camera bambino con culla.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-cantori/Monica Mariz le albere cantori camera da letto con manichino.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-cantori/Monica Mariz le albere cantori camera da letto con pianoforte e lavagna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-cantori/Monica Mariz le albere cantori camera da letto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-cantori/Monica Mariz le albere cantori credenza e tavolo in anelli di metallo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-cantori/Monica Mariz le albere cantori dettaglio culla.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-cantori/Monica Mariz le albere cantori dettaglio letto con comodino.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-cantori/Monica Mariz le albere cantori mobile soggiorno fatto a mano in metallo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-cantori/Monica Mariz le albere cantori poggiolo con tavolino.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-cantori/Monica Mariz le albere cantori soggiorno con divano in stoffa e tavolini in marmo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-cantori/Monica Mariz le albere cantori soggiorno con tavolini in marmo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-cantori/Monica Mariz le albere cantori tavolino in legno e sedie trasparenti.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-cantori/Monica Mariz le albere cantori tavolo soggiorno in anelli di ferro e vetro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-cantori/Thumbnail Monica Mariz le albere cantori.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-riva/Header Monica Mariz le albere riva soggiorno con sedute in legno e tappeto.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-riva/Monica Mariz le albere riva camera da letto con scaffale.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-riva/Monica Mariz le albere riva camera da letto dettaglio lampada.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-riva/Monica Mariz le albere riva camera da letto vista da fuori.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-riva/Monica Mariz le albere riva camera da letto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-riva/Monica Mariz le albere riva finestra e parete esterna verde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-riva/Monica Mariz le albere riva inquadratura con soggiorno e camera da letto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-riva/Monica Mariz le albere riva poggiolo con pelle e sedia in legno.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-riva/Monica Mariz le albere riva poggiolo con sedia in legno scolpito.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-riva/Monica Mariz le albere riva sedia e tavolino in legno.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-riva/Monica Mariz le albere riva soggiorno arredato.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-riva/Monica Mariz le albere riva soggiorno con muro dipinto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-riva/Monica Mariz le albere riva soggiorno con quadro tavolo e divano.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-riva/Monica Mariz le albere riva soggiorno con sedute in legno e tappeto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-riva/Monica Mariz le albere riva tavolo in legno e sedie in pelle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/residenza-le-albere-riva/Thumbnail Monica Mariz Residenza Le Albere Riva Trento.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Header Monica Mariz maison de filip arredo tavolo in legno con candela di design.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Monica Mariz maison de filip angolo quadri yesterday now tomorrow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Monica Mariz maison de filip arredo tavolo in legno con candela di design.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Monica Mariz maison de filip arredo tavolo minimale e molto elegante.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Monica Mariz maison de filip bagno con specchio e parete in porfido.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Monica Mariz maison de filip bancone cassa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Monica Mariz maison de filip dettaglio cassetto con posate nascosto nel tavolo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Monica Mariz maison de filip dettaglio della cucina con scritta kitchen su acciaio.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Monica Mariz maison de filip dettaglio lampade pendenti di design.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Monica Mariz maison de filip dettaglio sedie con seduta imbottita di velluto colorato.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Monica Mariz maison de filip entrata con scaffale per posateria e menu cartacei.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Monica Mariz maison de filip sala da pranzo arredatra con piatti sulla parete.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Monica Mariz maison de filip sala da pranzo con panca arredata con mano in legno e quadro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Monica Mariz maison de filip sala da pranzo vista dal bancone cassa con parete blu e tavoli.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Monica Mariz maison de filip sgabelli tavolo e lampada in vetro soffiato di murano.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Monica Mariz maison de filip tavoli alti con sgabelli e lampade in vetro di murano.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Monica Mariz maison de filip tavoli in legno di rovere e sedie colorate bianche.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Monica Mariz maison de filip tavolo rustico con lampadario in cristallo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Monica Mariz maison de filip vetrata con tavolo alto e sgabelli vista da fuori.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Monica Mariz maison de filip vetrata esterna con arco e vista su sala da pranzo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Monica Mariz maison de filip vetrata esterna con tavoli e sedie della sala da pranzo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Monica Mariz maison de filiplampade in vetro di murano.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/ristorante-maison-de-filip/Thumbnail Monica Mariz Maison de Filip.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-la-kulla/Header Monica Mariz Store la Culla orso su parete.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-la-kulla/Monica Mariz Store la Culla orso su parete.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-la-kulla/Monica Mariz store la kulla bancone negozio con sebrta.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-la-kulla/Monica Mariz store la kulla borsetta e scarpine bambino.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-la-kulla/Monica Mariz store la kulla esposizione prodotti bambino.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-la-kulla/Monica Mariz store la kulla esposizione vetrina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-la-kulla/Monica Mariz store la kulla foto zebra in primo piano.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-la-kulla/Monica Mariz store la kulla giraffa e espositori vestiti.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-la-kulla/Monica Mariz store la kulla lampadari e diesgno orso.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-la-kulla/Monica Mariz store la kulla lampadario.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-la-kulla/Monica Mariz store la kulla negozio da bancone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-la-kulla/Monica Mariz store la kulla negozio.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-la-kulla/Monica Mariz store la kulla netro su lavagna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-la-kulla/Monica Mariz store la kulla orso pitturato a mano.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-la-kulla/Monica Mariz store la kulla pittura murale orso.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-la-kulla/Monica Mariz store la kulla reception foto sebra e orso disegnato.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-la-kulla/Monica Mariz store la kulla tenda lampadari e cesti.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-la-kulla/Thumbnail Monica Mariz store la kulla disegno orso.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-punto-e-virgola/Header Monica Mariz punto e virgola allestimento tavolo con fiori e vestiti.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-punto-e-virgola/Monica Mariz punto e virgola allestimento tavolo con fiori e vestiti.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-punto-e-virgola/Monica Mariz punto e virgola appendini con pantaloni.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-punto-e-virgola/Monica Mariz punto e virgola cesti sciarpe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-punto-e-virgola/Monica Mariz punto e virgola davanzale con fiori e scarpe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-punto-e-virgola/Monica Mariz punto e virgola davanzale con scarpe e pianta.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-punto-e-virgola/Monica Mariz punto e virgola fiori in secchio.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-punto-e-virgola/Monica Mariz punto e virgola parete decorata arancione.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-punto-e-virgola/Monica Mariz punto e virgola parete decorata con puto e virgola.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-punto-e-virgola/Monica Mariz punto e virgola sedia con orsetto di peluche.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-punto-e-virgola/Monica Mariz punto e virgola sedia verde con fiori.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-punto-e-virgola/Monica Mariz punto e virgola tavolo rustico con vestiti.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/posts/store-punto-e-virgola/Thumbnail Monica Mariz Store Punto Virgola.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MyButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MyButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/navigation/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/navigation/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contatti.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contatti.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PaintingModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/PaintingModal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/grid/GridStructure.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/grid/GridStructure.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/grid/ModalGrid.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/grid/ModalGrid.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage-sections/PaintingS.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage-sections/PaintingS.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage-sections/ProjectS.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage-sections/ProjectS.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage/OpenPdf.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/OpenPdf.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage/ProjectElement.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/ProjectElement.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/masonry-grid/MasonryGrid.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/masonry-grid/MasonryGrid.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/googleTagManager.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/googleTagManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/queries.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/sanityClient.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/progetti/[slug].jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/progetti/[slug].jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/progetti/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/progetti/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/quadri.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quadri.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,13 +384,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;marco-zaninelli&quot;
-  }
+  &quot;lastFilter&quot;: {}
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
@@ -35,10 +401,9 @@
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 4
+  &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2oVk6mslyza2gWPN88Q7MJDVeJ8" />
+  <component name="ProjectId" id="2pjg1307IWDNTW7ZhWeo26f88QP" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -49,22 +414,21 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\GAMiNG-LAPTOP\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "markdown",
+    "last_opened_file_path": "C:/Users/GAMiNG-LAPTOP/WebstormProjects/monica-mariz/public/posts/casa-privata-albiano",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "ts.external.directory.path": "C:\\Users\\GAMiNG-LAPTOP\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -75,12 +439,19 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\GAMiNG-LAPTOP\WebstormProjects\monica-mariz\public\posts\casa-privata-albiano" />
+      <recent name="C:\Users\GAMiNG-LAPTOP\WebstormProjects\monica-mariz\public\posts\store-la-kulla" />
+      <recent name="C:\Users\GAMiNG-LAPTOP\WebstormProjects\monica-mariz\public\posts\residenza-le-albere-cantori" />
+      <recent name="C:\Users\GAMiNG-LAPTOP\WebstormProjects\monica-mariz\public\posts\residenza-le-albere-baxter" />
+      <recent name="C:\Users\GAMiNG-LAPTOP\WebstormProjects\monica-mariz\public\posts\residenza-le-albere-riva" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\GAMiNG-LAPTOP\WebstormProjects\monica-mariz\components" />
-      <recent name="C:\Users\GAMiNG-LAPTOP\WebstormProjects\monica-mariz\components\homepage" />
-      <recent name="C:\Users\GAMiNG-LAPTOP\WebstormProjects\monica-mariz\components\navigation" />
-      <recent name="C:\Users\GAMiNG-LAPTOP\WebstormProjects\monica-mariz\components\layouts" />
-      <recent name="C:\Users\GAMiNG-LAPTOP\WebstormProjects\monica-mariz\public\fonts" />
+      <recent name="C:\Users\GAMiNG-LAPTOP\WebstormProjects\monica-mariz\public\posts\residenza-le-albere-riva" />
+      <recent name="C:\Users\GAMiNG-LAPTOP\WebstormProjects\monica-mariz\public\posts\residenza-le-albere-baxter" />
+      <recent name="C:\Users\GAMiNG-LAPTOP\WebstormProjects\monica-mariz\public\posts\residenza-le-albere-cantori" />
+      <recent name="C:\Users\GAMiNG-LAPTOP\WebstormProjects\monica-mariz\public\posts\casa-privata-gabicce-mare" />
+      <recent name="C:\Users\GAMiNG-LAPTOP\WebstormProjects\monica-mariz\public\posts\casa-ester-beb" />
     </key>
   </component>
   <component name="RunManager">
@@ -105,72 +476,21 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b5199aa4-1597-4d55-aeb2-bc360b0be92c" name="Changes" comment="" />
-      <created>1730961957178</created>
+      <changelist id="047870b4-b285-49db-a535-82503ffca00b" name="Changes" comment="First version of the project to be built" />
+      <created>1733284679837</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1730961957178</updated>
-      <workItem from="1730961958285" duration="468000" />
-      <workItem from="1730962947465" duration="1612000" />
-      <workItem from="1731183232144" duration="2000" />
-      <workItem from="1731661338433" duration="56097000" />
-      <workItem from="1732077349913" duration="8535000" />
-      <workItem from="1732518852575" duration="20230000" />
-      <workItem from="1732843753618" duration="25490000" />
-      <workItem from="1733092216330" duration="14531000" />
-      <workItem from="1733128603567" duration="14557000" />
+      <updated>1733284679837</updated>
+      <workItem from="1733284680908" duration="12252000" />
+      <workItem from="1733713402507" duration="30888000" />
     </task>
-    <task id="LOCAL-00001" summary="Transfer project from Space to GitHub">
-      <option name="closed" value="true" />
-      <created>1733093158368</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1733093158368</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Updated LICENSE.md and README.md files">
-      <option name="closed" value="true" />
-      <created>1733094648131</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1733094648131</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Added Projects page and procedural links.">
-      <option name="closed" value="true" />
-      <created>1733131477172</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1733131477172</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Made quadri page">
-      <option name="closed" value="true" />
-      <created>1733273599972</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1733273599972</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Made quadri page">
-      <option name="closed" value="true" />
-      <created>1733273623212</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1733273623212</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Transfer project from Space to GitHub" />
-    <MESSAGE value="Updated LICENSE.md and README.md files" />
-    <MESSAGE value="Added Projects page and procedural links." />
-    <MESSAGE value="Made quadri page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made quadri page" />
+    <MESSAGE value="First version of the project to be built" />
+    <option name="LAST_COMMIT_MESSAGE" value="First version of the project to be built" />
   </component>
 </project>

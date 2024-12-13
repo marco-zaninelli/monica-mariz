@@ -1,60 +1,44 @@
+import {useState, useEffect} from "react";
 import PageHeading from "@/components/PageHeading";
-import React, {useEffect, useState} from "react";
-import sanityClient from "@/lib/sanityClient";
 import LinkGrid from "@/components/grid/LinkGrid";
-import {GET_PROJECTS_DATA} from "@/lib/queries";
 import Head from "next/head";
+import {getThumbnailsData} from "@/lib/getThumbnailsData";
 
-export default function Progetti () {
-    const [post, setPost] = useState(null);
+export async function getStaticProps () {
+    const data = getThumbnailsData("projects");
+    return {props: {data}};
+}
+
+export default function Progetti ({data}) {
+    const [selectedCategory, setSelectedCategory] = useState("Tutti");
+    const [filteredData, setFilteredData] = useState(data);
     const [categories, setCategories] = useState([]);
-    const [filteredPosts, setFilteredPosts] = useState([]);
-    const [selectedCategory, setSelectedCategory] = useState("all");
-    const [isLoading, setIsLoading] = useState(true);
+
 
     useEffect(() => {
-        sanityClient
-            .fetch(GET_PROJECTS_DATA)
-            .then((data) => {
-                setPost(data);
-                setFilteredPosts(data);
-                setIsLoading(false);
-
-                const usedCategories = new Set(
-                    data.flatMap(post => post.categories?.map(cat => cat.title)).filter(Boolean)
-                );
-                setCategories(Array.from(usedCategories));
-            })
-            .catch(console.error);
-    }, []);
+        // Extract unique categories from the data
+        const uniqueCategories = [
+            "Tutti",
+            ...new Set(data.flatMap((item) => item.category || []))
+        ];
+        setCategories(uniqueCategories);
+    }, [data]);
 
     const filterByCategory = (category) => {
         setSelectedCategory(category);
-
-        window.scrollTo({
-            top: 350,
-            behavior: "smooth"
-        });
-
-        if (category === "all") {
-            setFilteredPosts(post);
+        if (category === "Tutti") {
+            setFilteredData(data);
         } else {
-            setFilteredPosts(post.filter(post => post.categories?.some(cat => cat.title === category)));
+            setFilteredData(
+                data.filter((item) => item.category && item.category.includes(category))
+            );
         }
     };
 
-    const data = {
-        images: filteredPosts.map(post => ({
-            src: post.thumbnail.asset.url,
-            alt: post.thumbnail.asset.originalFilename.split(".")[0],
-            link: `/progetti/${post.slug.current}`,
-            title: post.title
-        }))
-    };
-
-    const buttonBaseStyle = 'mx-2 px-2 py-0 border-b border-transparent text-secondary transition-all duration-300';
-    const buttonActive = 'font-bold'
-    const buttonHover = 'hover:border-b-secondary'
+    const buttonBaseStyle =
+        "mx-2 px-2 py-0 border-b border-transparent text-secondary transition-all duration-300";
+    const buttonActive = "font-bold border-b-secondary";
+    const buttonHover = "hover:border-b-secondary";
 
     return (
         <>
@@ -66,37 +50,34 @@ export default function Progetti () {
                 />
                 <link rel="canonical" href="https://www.monicamariz.it/progetti" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta property="og:title" content="Monica Mariz | Quadri" />
+                <meta property="og:title" content="Monica Mariz | Progetti" />
                 <meta
                     property="og:description"
                     content="Scopri i miei progetti di interior design: arredamento, allestimento e restyling per spazi unici e personalizzati. Creatività e funzionalità al centro."
                 />
-                {/* TODO:: Add image URL for social sharing */}
-                {/*<meta property="og:image" content="URL to image for social sharing" />*/}
                 <meta property="og:url" content="https://www.monicamariz.it/progetti" />
             </Head>
             <main>
                 <PageHeading
                     heading={"PROGETTI"}
-                    description={"Esplora l'unicità in ogni progetto. Ogni spazio racconta una storia unica attraverso arte, design e originalità."}
+                    description={
+                        "Esplora l'unicità in ogni progetto. Ogni spazio racconta una storia unica attraverso arte, design e originalità."
+                    }
                 />
-                {categories.length > 1 && (
-                    <div className="mb-4  sticky top-0 bg-primary z-10 w-full text-center">
+                <div className="text-center my-4 sticky top-0 py-2 bg-primary z-10">
+                    {categories.map((category) => (
                         <button
-                            onClick={() => filterByCategory("all")}
-                            className={`${buttonBaseStyle} ${selectedCategory === "all" ? buttonActive : buttonHover}`}>
-                            Tutti
+                            key={category}
+                            className={`${buttonBaseStyle} ${
+                                selectedCategory === category ? buttonActive : buttonHover
+                            }`}
+                            onClick={() => filterByCategory(category)}
+                        >
+                            {category}
                         </button>
-                        {categories.map((category) => (
-                            <button key={category}
-                                    onClick={() => filterByCategory(category)}
-                                    className={`${buttonBaseStyle} ${selectedCategory === category ? buttonActive : buttonHover}`}>
-                                {category}
-                            </button>
-                        ))}
-                    </div>
-                )}
-                <LinkGrid data={data} isLoading={isLoading} />
+                    ))}
+                </div>
+                <LinkGrid data={filteredData} />
             </main>
         </>
     );

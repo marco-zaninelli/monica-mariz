@@ -1,16 +1,28 @@
-import React, { Suspense } from 'react';
 import Head from "next/head";
-import dynamic from 'next/dynamic';
+import HeroS from "@/components/homepage-sections/HeroS";
+import ServiceS from "@/components/homepage-sections/ServiceS";
+import GoalsS from "@/components/homepage-sections/GoalsS";
+import ArticleS from "@/components/homepage-sections/ArticleS";
+import ProjectS from "@/components/homepage-sections/ProjectS";
+import PaintingS from "@/components/homepage-sections/PaintingS";
 
-// Dynamically imported homepage sections
-const HeroS = dynamic(() => import('@/components/homepage-sections/HeroS'), { suspense: true });
-const ProjectS = dynamic(() => import('@/components/homepage-sections/ProjectS'), { suspense: true });
-const ArticleS = dynamic(() => import('@/components/homepage-sections/ArticleS'), { suspense: true });
-const GoalsS = dynamic(() => import('@/components/homepage-sections/GoalsS'), { suspense: true });
-const PaintingS = dynamic(() => import('@/components/homepage-sections/PaintingS'), { suspense: true });
-const ServiceS = dynamic(() => import('@/components/homepage-sections/ServiceS'), { suspense: true });
+export async function getStaticProps () {
+    const {getThumbnailsData} = await import("@/lib/getThumbnailsData");
 
-export default function Home() {
+    // Fetch the projects and art data
+    const allProjects = getThumbnailsData("projects") || [];
+    const allArtPosts = getThumbnailsData("art") || [];
+
+    // Slice the data as needed
+    const projects = allProjects.slice(0, 4);
+    const art = allArtPosts.slice(0, 4);
+
+    // Return both datasets in props
+    return {props: {projects, art}};
+}
+
+export default function Home ({projects, art}) {
+
     return (
         <>
             <Head>
@@ -31,15 +43,12 @@ export default function Home() {
                 <meta property="og:url" content="https://www.monicamariz.it" />
             </Head>
             <main>
-                <Suspense fallback={<div>Loading...</div>}>
-                    {/* Dynamically loaded sections */}
-                    <HeroS />
-                    <ProjectS />
-                    <GoalsS />
-                    <ServiceS />
-                    <ArticleS />
-                    <PaintingS />
-                </Suspense>
+                <HeroS />
+                <ProjectS data={projects} />
+                <GoalsS />
+                <ServiceS />
+                <ArticleS />
+                <PaintingS data={art} />
             </main>
         </>
     );

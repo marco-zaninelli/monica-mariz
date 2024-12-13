@@ -12,7 +12,6 @@ export default function ProjectElement({ imgSrc, imgAlt, heading, link, onClick,
                     src={imgSrc}
                     alt={imgAlt}
                     className="w-full h-full object-cover rounded-xl transition-all duration-300 ease-in-out"
-                    layout="responsive"
                     width={400}
                     height={600}
                     style={{
